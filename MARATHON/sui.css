@@ -1,0 +1,22 @@
+table{position:absolute;top: 100px;left: 450px;}
+
+tbody tr:nth-child(odd) {
+  background-color: rgba(100,100,100,0.6);
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba(100,100,100,0.6);
+}
+
+tbody tr {
+  background-image: url(noise.png);
+}
+ input[type=submit]{width: 100; height: 50;
+  border: none;
+  
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;}
+
